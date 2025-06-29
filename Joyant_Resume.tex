@@ -1,0 +1,214 @@
+%--------------------------------------------------
+% Resume in LaTeX
+% Author  : Joyant Sheikhar Gupta Joy
+% Based on: https://github.com/joyant-s-g-j
+% License : MIT
+%--------------------------------------------------
+
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+\usepackage{mathptmx}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\footskip}{10pt}
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\rmfamily\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeCourseheadeading}[1]{
+  \vspace{-2pt}\item
+    \textbf{#1}\vspace{-7pt} \\
+}
+
+\newcommand{\resumeCoursework}[1]{
+  \vspace{2pt}
+  \begin{multicols}{3}
+    \begin{itemize}[leftmargin=*, label=\textbullet, itemsep=2pt]
+      #1
+    \end{itemize}
+  \end{multicols}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \rmfamily Joyant Sheikhag Gupta Joy} \\ \vspace{1pt}
+    \href{https://joyant.me/}{\underline{www.joyant.me}} $|$
+    \href{https://www.linkedin.com/in/joyant-s-g-j/}{\underline{linkedin.com/in/joyant-s-g-j}} $|$
+    \href{https://github.com/joyant-s-g-j}{\underline{github.com/joyant-s-g-j}} \\
+    \small \href{tel:+8801518683509}{\underline{+8801518683509}} $|$ 
+    \href{mailto:joyantsheikharguptajoy@gmail.com}{\underline{joyantsheikharguptajoy@gmail.com}} $|$ 
+    \small{Dhaka, Bangladesh}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Atish Dipankar University of Science and Technology}{Dhaka, Bangladesh}
+      {Bachelor of Science in Computer Science and Engineering }{Jan 2024 -- May 2027}
+    \resumeCourseheadeading
+      {Relevant Coursework}
+    \resumeCoursework{
+      \item Data Structures
+      \item OOP (Java)
+      \item Digital Logic Design
+      \item Microprocessor \& Assembly
+      \item Discrete Mathematics
+      \item Data Communication
+    }
+  \resumeSubHeadingListEnd
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages \& Concepts}{: C, C++, Java, JavaScript, TypeScript, Python, SQL, Latex Problem-Solving, Competitive Programming, Data Structures, Algorithms, OOP} \\
+     \textbf{Frontend}{: HTML, CSS, Chakra UI, JavaScript, React (MERN), Next.js, Tailwind, Bootstrap} \\
+     \textbf{Backend}{: Django, Express.js, Node.js (MERN)} \\
+     \textbf{Database}{: MySQL, PostgreSQL, MongoDB} \\
+     \textbf{Tools}{: Git, GitHub, Figma, GitBook, Notion, VS Code, LaTeX} \\
+     \textbf{Operating Systems}{: Windows, Linux (Ubuntu)} \\
+     \textbf{Soft Skills}{: Communication, Collaboration, Adaptability, Leadership, Time Management, Flexibility, Decision-Making}
+    }}
+ \end{itemize}
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Software Developer Intern}{May 2025 -- Present}
+      {Thinkcrypt.io}{Banani, Dhaka, Bangladesh }
+      \resumeItemListStart
+        \resumeItem{Building full-stack features using the MERN stack with a focus on scalable APIs and responsive UI.}
+        \resumeItem{Developed frontend interfaces with Next.js, Chakra UI, Tailwind; handled state using Redux Toolkit.}
+        \resumeItem{Collaborating with a 4-member team to fix bugs, improve performance, and deliver key features.}
+        \resumeItem{Ensured efficient version control and team collaboration using Git and GitHub.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+        {\textbf{Onubhuit} $|$ \emph{Next.js, TypeScript, PostgreSQL, Tailwind CSS}}{March 2025 -- April 2025}
+        \resumeItemListStart
+          \resumeItem{Built a fully responsive social media app featuring posts, photo sharing, follow/unfollow, and real-time notifications.}
+          \resumeItem{Implemented secure user authentication with Clerk and optimized image uploads using UploadThing.}
+          \resumeItem{Enhanced user experience with profile management and dark/light mode support.}
+        \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+  \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+      \textbf{Front-end Development – Sheriyans Coding School}{: Covered HTML, CSS, JavaScript, GSAP, Locomotive, Scroll Trigger, Shery.js, React.js, Tailwind, Redux, and modern web development principles.} \\
+      \textbf{Python (Basic) – HackerRank}{: Validated foundational Python skills, including data types, control structures, functions, and problem-solving.}
+    }}
+  \end{itemize}
+
+%-----------LEADERSHIP AND VOLUNTEER-----------
+\section{Leadership \& Volunteer Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Campus Ambassador}{May 2025 -- Present}
+      {Phitron}{Virtual Platform}
+      \resumeItemListStart
+        \resumeItem{Representing Phitron to promote tech education and coding culture on campus}
+        \resumeItem{Planning to organize workshops and peer learning sessions to build a strong community}
+        \resumeItem{Actively participating in monthly tech upskilling events and networking opportun}
+        \resumeItem{Preparing myself for upcoming internship and certification opportunities while contributing to LinkedIn branding}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Languages}
+  \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+      \textbf{Bangla}{: Native} \\
+      \textbf{English}{: Professional working proficiency}
+    }}
+  \end{itemize}
+
+%-------------------------------------------
+\end{document}
