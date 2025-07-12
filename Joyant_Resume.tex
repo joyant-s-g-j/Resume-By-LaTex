@@ -58,11 +58,19 @@
   }
 }
 
-\newcommand{\resumeSubheading}[4]{
+\newcommand{\resumeSubheading}[5]{
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
+      \textbf{\textit{\href{#3}{\small #4}}} & \textit{\small #5} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeEduSubheading}[5]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\href{#1}{#2}} & #3 \\
+      \textit{\small #4} & \textit{\small #5}
     \end{tabular*}\vspace{-7pt}
 }
 
@@ -121,7 +129,7 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {Software Developer Intern}{May 2025 -- Present}
-      {Thinkcrypt.io}{Banani, Dhaka, Bangladesh }
+      {https://www.thinkcrypt.dev/}{Thinkcrypt.io}{Banani, Dhaka, Bangladesh }
       \resumeItemListStart
         \resumeItem{Built 6+ full-stack projects using the MERN stack with scalable APIs and responsive UIs; currently working on more.}
         \resumeItem{Developed frontend interfaces using Next.js, Chakra UI, and Tailwind CSS; managed state with Redux Toolkit.}
@@ -159,8 +167,8 @@
 %-----------EDUCATION-----------
 \section{\textbf{Education}}
   \resumeSubHeadingListStart
-    \resumeSubheading
-      {Atish Dipankar University of Science and Technology}{Dhaka, Bangladesh}
+    \resumeEduSubheading
+      {https://www.adust.edu.bd/\#}{Atish Dipankar University of Science and Technology}{Dhaka, Bangladesh}
       {Bachelor of Science in Computer Science and Engineering }{Jan 2024 -- Dec 2027 (Expected)}
   \resumeSubHeadingListEnd
 
@@ -178,7 +186,7 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {Campus Ambassador}{May 2025 -- Present}
-      {Phitron}{Virtual Platform}
+      {https://phitron.io/}{Phitron}{Virtual Platform}
       \resumeItemListStart
         \resumeItem{Representing Phitron to promote tech education and coding culture on campus}
         \resumeItem{Planning to organize workshops and peer learning sessions to build a strong community}
