@@ -20,6 +20,7 @@
 \usepackage[english]{babel}
 \usepackage{tabularx}
 \input{glyphtounicode}
+\usepackage{tabularx}
 \usepackage{mathptmx}
 
 \pagestyle{fancy}
@@ -69,11 +70,11 @@
 
 \newcommand{\resumeEduSubheading}[6]{
   \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \begin{tabularx}{\textwidth}[t]{X r}
       \textbf{\href{#1}{#2}} & #3 \\
-      \textbf{\textit{\small #4}} & \textit{\small #5} \\
+      {\textit{\small #4}} & \textit{\small #5} \\
       {\small #6}
-    \end{tabular*}\vspace{-7pt}
+    \end{tabularx}\vspace{-7pt}
 }
 
 \newcommand{\resumeCourseheadeading}[1]{
@@ -108,7 +109,7 @@
 
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
@@ -125,5 +126,17 @@ Dhaka, Bangladesh \\ \vspace{1pt}
 \href{https://www.linkedin.com/in/joyant-s-g-j/}{\underline{linkedin.com/in/joyant-s-g-j}} $|$
 \href{https://github.com/joyant-s-g-j}{\underline{github.com/joyant-s-g-j}}
 
+%----------Professional Summary----------
+\resumeSection{https://joyant.me/about}{About Me}
+    Joyant is a passionate Computer Science \& Engineering student with a strong interest in technology and learning. He has hands-on experience in software development, especially in building full-stack web applications. He also enjoys solving problems and exploring fields like Machine Learning and Deep Learning. Joyant enjoys working on full-stack projects, loves sharing ideas with others, and always looks for ways to learn and build meaningful, innovative solutions for real-world impact.
+
+%-----------EDUCATION-----------
+\resumeSection{https://joyant.me/education}{Education}
+  \resumeSubHeadingListStart
+    \resumeEduSubheading
+      {https://www.adust.edu.bd/\#}{Atish Dipankar University of Science and Technology}{Dhaka, Bangladesh}
+      {Bachelor of Science in Computer Science and Engineering }{Jan 2024 -- Dec 2027 (Expected)}
+      {Up to 4th semester CGPA: 3.50}
+  \resumeSubHeadingListEnd
 
 \end{document}
