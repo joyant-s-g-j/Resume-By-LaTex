@@ -3,7 +3,7 @@
 🚀 **Professional Resume and CV** built with **LaTeX** for a clean, ATS-friendly, and highly customizable format. This repository contains well-structured LaTeX templates showcasing skills, experience, projects, and education for job applications.
 
 ### 👤 Author  
-**[Joyant Sheikhar Gupta Joy](https://joyant.me)** – Software Developer | CSE Student at ADUST
+**[Joyant Sheikhar Gupta Joy](https://joyantsgj.dev/)** – Software Developer | CSE Student at ADUST
 
 ## ✨ Features  
 📝 **ATS-Friendly** – Machine-readable PDF output optimized for Applicant Tracking Systems.  
@@ -57,10 +57,10 @@ Edit the `.tex` files to update:
 | `\resumeSection{}` | Section with hyperlink |
 
 ## 🔗 Links  
-- 🌐 **Portfolio**: [joyant.me](https://joyant.me)  
+- 🌐 **Portfolio**: [joyantsgj.dev](https://joyantsgj.dev/)  
 - 💼 **LinkedIn**: [linkedin.com/in/joyant-s-g-j](https://www.linkedin.com/in/joyant-s-g-j/)  
 - 🐙 **GitHub**: [github.com/joyant-s-g-j](https://github.com/joyant-s-g-j)  
 
 ---
 
-Made with ❤️ by **[Joyant Sheikhar Gupta Joy](https://joyant.me)** | Built with LaTeX 📝
+Made with ❤️ by **[Joyant Sheikhar Gupta Joy](https://joyantsgj.dev/)** | Built with LaTeX 📝
